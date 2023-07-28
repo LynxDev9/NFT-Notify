@@ -1,0 +1,502 @@
+-- Merging decision tree log ---
+application
+INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:4:4-34:19
+MERGED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:11:5-44:19
+MERGED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:11:5-44:19
+MERGED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:12:5-26:19
+MERGED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:12:5-26:19
+MERGED from [:firebase_core] D:\dev\Projects\nft_notify\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] D:\dev\Projects\nft_notify\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\eea15073d6c85c26529d44b07c9f8654\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\eea15073d6c85c26529d44b07c9f8654\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\5c9c7b61f1d8778e761c5ba7a1ce9e81\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\5c9c7b61f1d8778e761c5ba7a1ce9e81\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\4a7bca8ac39e427456f3de56246c7bec\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\4a7bca8ac39e427456f3de56246c7bec\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\0edbe80645dc3d368181d97aa6788484\jetified-firebase-installations-17.0.0\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\0edbe80645dc3d368181d97aa6788484\jetified-firebase-installations-17.0.0\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e1cdf0d9dc9942644253a7ec417b85b7\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e1cdf0d9dc9942644253a7ec417b85b7\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\13d5695edcbdb9ae2b0bc289e4b7d8c9\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\13d5695edcbdb9ae2b0bc289e4b7d8c9\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\5688ef5119f5049c5dad6dd3ead85938\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\5688ef5119f5049c5dad6dd3ead85938\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e4af63fc9194145967ae983475ffcf1c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e4af63fc9194145967ae983475ffcf1c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.6.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\1cff324e0fbd0e8734c65299ec5a85cf\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\1cff324e0fbd0e8734c65299ec5a85cf\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7522d8ad59c122e845223f4daa748d51\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7522d8ad59c122e845223f4daa748d51\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\c291d3d9b571a1c0a16dce355b47f043\jetified-threetenabp-1.2.3\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\c291d3d9b571a1c0a16dce355b47f043\jetified-threetenabp-1.2.3\AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\1cff324e0fbd0e8734c65299ec5a85cf\core-1.6.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:5:9-35
+	android:icon
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:7:9-45
+	android:name
+		INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:6:9-42
+manifest
+ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:1:1-35:12
+MERGED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:2:1-46:12
+MERGED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:2:1-28:12
+MERGED from [:firebase_core] D:\dev\Projects\nft_notify\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\b3365b9393676aa799344d09d1d273ac\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\eea15073d6c85c26529d44b07c9f8654\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:17:1-58:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\5c9c7b61f1d8778e761c5ba7a1ce9e81\jetified-play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\117758f06a92ede1b10357d75dcf4118\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\930b0942c5ec3c9a9d6f3ff135d0c24c\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.1.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\1fae3ad8fead62d60c598a32ef9bda29\media-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\4a7bca8ac39e427456f3de56246c7bec\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\0edbe80645dc3d368181d97aa6788484\jetified-firebase-installations-17.0.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\a6225e26c341a908c2db6eae979aeccf\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e1cdf0d9dc9942644253a7ec417b85b7\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\375cd7860f03691d1dbfd017b40c6ab0\jetified-firebase-installations-interop-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\13d5695edcbdb9ae2b0bc289e4b7d8c9\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\5688ef5119f5049c5dad6dd3ead85938\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e4af63fc9194145967ae983475ffcf1c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\62549f66ef961eed20e093d0419f8c0f\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\ee15258099fa6e9e888a09e8e8f87222\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\009c2f7ccfd7ab03cb004aa483646bdb\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\dc2d2414f4d4297af90011e3426bb7bf\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7c879b79fbf08d9fdde071e435f6d0a0\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\1cff324e0fbd0e8734c65299ec5a85cf\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\35c071b26b30ebb434aa6857d0ae119a\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\1c97588ba76b68a0c6b91584a7103786\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\851864544461d9c40b65e58d6eed167d\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\b1e1b08f69e61b7787326339a359f49d\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\424580a94412ca61e36ac25b448a9698\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\f08563beacffa3eb2927dcb0979efe9a\jetified-transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\47e0c9ad8333e6dd227c31eeb82a4244\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7522d8ad59c122e845223f4daa748d51\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\d6d11e55d97ea56bbea0bfbbe2c0ac4f\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\6251a30a839ecc687e839f1db513e190\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\770a1458104f988e39bb129c9eb88182\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\c7397e9e5c5e145dc695d37facb89589\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\04ec4671ac3f3a54139ba72fa86dc381\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\c291d3d9b571a1c0a16dce355b47f043\jetified-threetenabp-1.2.3\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\9cba9089aa5550b646fdba354556a34a\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:1:1-35:12
+	package
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:2:5-38
+		INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:1:1-35:12
+		INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:1:1-35:12
+		INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:3:4-66
+MERGED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:7:5-67
+MERGED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\0edbe80645dc3d368181d97aa6788484\jetified-firebase-installations-17.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\0edbe80645dc3d368181d97aa6788484\jetified-firebase-installations-17.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\a6225e26c341a908c2db6eae979aeccf\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\a6225e26c341a908c2db6eae979aeccf\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:3:21-63
+uses-sdk
+INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml
+MERGED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] D:\dev\Projects\nft_notify\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] D:\dev\Projects\nft_notify\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\b3365b9393676aa799344d09d1d273ac\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\b3365b9393676aa799344d09d1d273ac\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\eea15073d6c85c26529d44b07c9f8654\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\eea15073d6c85c26529d44b07c9f8654\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\5c9c7b61f1d8778e761c5ba7a1ce9e81\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\5c9c7b61f1d8778e761c5ba7a1ce9e81\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\117758f06a92ede1b10357d75dcf4118\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\117758f06a92ede1b10357d75dcf4118\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\930b0942c5ec3c9a9d6f3ff135d0c24c\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\930b0942c5ec3c9a9d6f3ff135d0c24c\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.1.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\1fae3ad8fead62d60c598a32ef9bda29\media-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\1fae3ad8fead62d60c598a32ef9bda29\media-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\4a7bca8ac39e427456f3de56246c7bec\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\4a7bca8ac39e427456f3de56246c7bec\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\0edbe80645dc3d368181d97aa6788484\jetified-firebase-installations-17.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\0edbe80645dc3d368181d97aa6788484\jetified-firebase-installations-17.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\a6225e26c341a908c2db6eae979aeccf\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\a6225e26c341a908c2db6eae979aeccf\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e1cdf0d9dc9942644253a7ec417b85b7\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e1cdf0d9dc9942644253a7ec417b85b7\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\375cd7860f03691d1dbfd017b40c6ab0\jetified-firebase-installations-interop-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\375cd7860f03691d1dbfd017b40c6ab0\jetified-firebase-installations-interop-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\13d5695edcbdb9ae2b0bc289e4b7d8c9\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\13d5695edcbdb9ae2b0bc289e4b7d8c9\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\5688ef5119f5049c5dad6dd3ead85938\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\5688ef5119f5049c5dad6dd3ead85938\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e4af63fc9194145967ae983475ffcf1c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e4af63fc9194145967ae983475ffcf1c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\62549f66ef961eed20e093d0419f8c0f\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\62549f66ef961eed20e093d0419f8c0f\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\ee15258099fa6e9e888a09e8e8f87222\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\ee15258099fa6e9e888a09e8e8f87222\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\009c2f7ccfd7ab03cb004aa483646bdb\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\009c2f7ccfd7ab03cb004aa483646bdb\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\dc2d2414f4d4297af90011e3426bb7bf\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\dc2d2414f4d4297af90011e3426bb7bf\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7c879b79fbf08d9fdde071e435f6d0a0\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7c879b79fbf08d9fdde071e435f6d0a0\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\1cff324e0fbd0e8734c65299ec5a85cf\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\1cff324e0fbd0e8734c65299ec5a85cf\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\35c071b26b30ebb434aa6857d0ae119a\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\35c071b26b30ebb434aa6857d0ae119a\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\1c97588ba76b68a0c6b91584a7103786\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\1c97588ba76b68a0c6b91584a7103786\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\851864544461d9c40b65e58d6eed167d\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\851864544461d9c40b65e58d6eed167d\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\b1e1b08f69e61b7787326339a359f49d\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\b1e1b08f69e61b7787326339a359f49d\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\424580a94412ca61e36ac25b448a9698\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\424580a94412ca61e36ac25b448a9698\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\f08563beacffa3eb2927dcb0979efe9a\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\f08563beacffa3eb2927dcb0979efe9a\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\47e0c9ad8333e6dd227c31eeb82a4244\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\47e0c9ad8333e6dd227c31eeb82a4244\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7522d8ad59c122e845223f4daa748d51\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7522d8ad59c122e845223f4daa748d51\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\d6d11e55d97ea56bbea0bfbbe2c0ac4f\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\d6d11e55d97ea56bbea0bfbbe2c0ac4f\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\6251a30a839ecc687e839f1db513e190\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\6251a30a839ecc687e839f1db513e190\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\770a1458104f988e39bb129c9eb88182\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\770a1458104f988e39bb129c9eb88182\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\c7397e9e5c5e145dc695d37facb89589\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\c7397e9e5c5e145dc695d37facb89589\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\04ec4671ac3f3a54139ba72fa86dc381\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\04ec4671ac3f3a54139ba72fa86dc381\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\c291d3d9b571a1c0a16dce355b47f043\jetified-threetenabp-1.2.3\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\c291d3d9b571a1c0a16dce355b47f043\jetified-threetenabp-1.2.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\9cba9089aa5550b646fdba354556a34a\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\9cba9089aa5550b646fdba354556a34a\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml
+activity#com.xhedgehog.nftnotify.MainActivity
+ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:8:9-28:20
+	android:launchMode
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:11:13-43
+	android:hardwareAccelerated
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:14:13-47
+	android:windowSoftInputMode
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:15:13-55
+	android:exported
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:10:13-36
+	android:configChanges
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:13:13-163
+	android:theme
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:12:13-47
+	android:name
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:9:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:20:13-23:17
+	android:resource
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:22:15-52
+	android:name
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:21:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:25:17-68
+	android:name
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:26:17-76
+	android:name
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:26:27-74
+meta-data#flutterEmbedding
+ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:31:9-33:33
+	android:value
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:33:13-30
+	android:name
+		ADDED from D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:32:13-44
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:23:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:23:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\a6225e26c341a908c2db6eae979aeccf\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\a6225e26c341a908c2db6eae979aeccf\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\0edbe80645dc3d368181d97aa6788484\jetified-firebase-installations-17.0.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\0edbe80645dc3d368181d97aa6788484\jetified-firebase-installations-17.0.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\a6225e26c341a908c2db6eae979aeccf\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\a6225e26c341a908c2db6eae979aeccf\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:22-76
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService
+ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:12:9-15:72
+	android:exported
+		ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
+	android:permission
+		ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:15:13-69
+	android:name
+		ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:13:13-107
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService
+ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:16:9-22:19
+	android:exported
+		ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:17:13-97
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:19:13-21:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:17-78
+	android:name
+		ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:25-75
+receiver#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver
+ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:24:9-31:20
+	android:exported
+		ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:27:13-73
+	android:name
+		ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:25:13-98
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:28:13-30:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:17-81
+	android:name
+		ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:25-78
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:33:9-37:19
+MERGED from [:firebase_core] D:\dev\Projects\nft_notify\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] D:\dev\Projects\nft_notify\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\4a7bca8ac39e427456f3de56246c7bec\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\4a7bca8ac39e427456f3de56246c7bec\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\0edbe80645dc3d368181d97aa6788484\jetified-firebase-installations-17.0.0\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\0edbe80645dc3d368181d97aa6788484\jetified-firebase-installations-17.0.0\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:51:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:33:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:34:13-36:85
+	android:value
+		ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:36:17-82
+	android:name
+		ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:35:17-128
+provider#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:39:9-43:38
+	android:authorities
+		ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:41:13-88
+	android:exported
+		ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:42:13-37
+	android:initOrder
+		ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:43:13-35
+	android:name
+		ADDED from [:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:40:13-102
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:8:22-63
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:10:22-76
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:13:9-15:40
+	android:exported
+		ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:14:13-97
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:16:9-25:20
+	android:exported
+		ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:17:13-101
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:19:13-24:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:20:17-79
+	android:name
+		ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:20:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:21:17-84
+	android:name
+		ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:21:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:22:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:23:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:23:25-79
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] D:\dev\Projects\nft_notify\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] D:\dev\Projects\nft_notify\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] D:\dev\Projects\nft_notify\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\eea15073d6c85c26529d44b07c9f8654\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\eea15073d6c85c26529d44b07c9f8654\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\eea15073d6c85c26529d44b07c9f8654\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\eea15073d6c85c26529d44b07c9f8654\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\eea15073d6c85c26529d44b07c9f8654\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\eea15073d6c85c26529d44b07c9f8654\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\a6225e26c341a908c2db6eae979aeccf\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\a6225e26c341a908c2db6eae979aeccf\jetified-play-services-cloud-messaging-17.0.0\AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:28:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:31:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:29:13-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:41:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:44:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:43:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:42:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:52:13-54:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:54:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:53:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\4a7bca8ac39e427456f3de56246c7bec\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\4a7bca8ac39e427456f3de56246c7bec\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\4a7bca8ac39e427456f3de56246c7bec\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\0edbe80645dc3d368181d97aa6788484\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\0edbe80645dc3d368181d97aa6788484\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\0edbe80645dc3d368181d97aa6788484\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e4af63fc9194145967ae983475ffcf1c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e4af63fc9194145967ae983475ffcf1c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e4af63fc9194145967ae983475ffcf1c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132

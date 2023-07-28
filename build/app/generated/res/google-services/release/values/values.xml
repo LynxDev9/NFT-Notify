@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">10055352282-br3v9f5qkk8kdlmn9c15i4e5jlagj8mk.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">10055352282</string>
+    <string name="google_api_key" translatable="false">AIzaSyACEXfooO80gGhKyoWnVQv4IBmKJlxot3g</string>
+    <string name="google_app_id" translatable="false">1:10055352282:android:45e03545b367c818b80ae3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyACEXfooO80gGhKyoWnVQv4IBmKJlxot3g</string>
+    <string name="google_storage_bucket" translatable="false">nft-notify-f715d.appspot.com</string>
+    <string name="project_id" translatable="false">nft-notify-f715d</string>
+</resources>

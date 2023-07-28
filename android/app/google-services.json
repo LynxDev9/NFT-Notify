@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "10055352282",
+    "project_id": "nft-notify-f715d",
+    "storage_bucket": "nft-notify-f715d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10055352282:android:45e03545b367c818b80ae3",
+        "android_client_info": {
+          "package_name": "com.xhedgehog.nftnotify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10055352282-br3v9f5qkk8kdlmn9c15i4e5jlagj8mk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACEXfooO80gGhKyoWnVQv4IBmKJlxot3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10055352282-br3v9f5qkk8kdlmn9c15i4e5jlagj8mk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

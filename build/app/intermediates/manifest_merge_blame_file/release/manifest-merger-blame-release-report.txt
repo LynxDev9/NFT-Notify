@@ -1,0 +1,316 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.xhedgehog.nftnotify"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:3:4-66
+11-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:3:21-63
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:5-68
+12-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:22-65
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:5-79
+13-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:7:5-81
+14-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:8:5-66
+15-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:8:22-63
+16    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+16-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:9:5-81
+16-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:10:5-79
+17-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:10:22-76
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:5-82
+18-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:22-79
+19
+20    <application
+21        android:name="android.app.Application"
+21-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:6:9-42
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.6.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\1cff324e0fbd0e8734c65299ec5a85cf\core-1.6.0\AndroidManifest.xml:24:18-86
+23        android:icon="@mipmap/launcher_icon"
+23-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:7:9-45
+24        android:label="Nft Notify" >
+24-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:5:9-35
+25        <activity
+25-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:8:9-28:20
+26            android:name="com.xhedgehog.nftnotify.MainActivity"
+26-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:9:13-41
+27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+27-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:13:13-163
+28            android:exported="true"
+28-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:10:13-36
+29            android:hardwareAccelerated="true"
+29-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:14:13-47
+30            android:launchMode="singleTop"
+30-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:11:13-43
+31            android:theme="@style/LaunchTheme"
+31-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:12:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:15:13-55
+33
+34            <!--
+35                 Specifies an Android theme to apply to this Activity as soon as
+36                 the Android process has started. This theme is visible to the user
+37                 while the Flutter UI initializes. After that, this theme continues
+38                 to determine the Window background behind the Flutter UI.
+39            -->
+40            <meta-data
+40-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:20:13-23:17
+41                android:name="io.flutter.embedding.android.NormalTheme"
+41-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:21:15-70
+42                android:resource="@style/NormalTheme" />
+42-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:22:15-52
+43
+44            <intent-filter>
+44-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:24:13-27:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:25:17-68
+45-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:25:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:26:17-76
+47-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:26:27-74
+48            </intent-filter>
+49        </activity>
+50        <!--
+51             Don't delete the meta-data below.
+52             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+53        -->
+54        <meta-data
+54-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:31:9-33:33
+55            android:name="flutterEmbedding"
+55-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:32:13-44
+56            android:value="2" />
+56-->D:\dev\Projects\nft_notify\android\app\src\main\AndroidManifest.xml:33:13-30
+57
+58        <service
+58-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:12:9-15:72
+59            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+59-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:13:13-107
+60            android:exported="false"
+60-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
+61            android:permission="android.permission.BIND_JOB_SERVICE" />
+61-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:15:13-69
+62        <service
+62-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:16:9-22:19
+63            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+63-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:17:13-97
+64            android:exported="false" >
+64-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:18:13-37
+65            <intent-filter>
+65-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:19:13-21:29
+66                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+66-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:17-78
+66-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:25-75
+67            </intent-filter>
+68        </service>
+69
+70        <receiver
+70-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:24:9-31:20
+71            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+71-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:25:13-98
+72            android:exported="true"
+72-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:26:13-36
+73            android:permission="com.google.android.c2dm.permission.SEND" >
+73-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:27:13-73
+74            <intent-filter>
+74-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:28:13-30:29
+75                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+75-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:17-81
+75-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:25-78
+76            </intent-filter>
+77        </receiver>
+78
+79        <service
+79-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:33:9-37:19
+80            android:name="com.google.firebase.components.ComponentDiscoveryService"
+80-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:33:18-89
+81            android:directBootAware="true"
+81-->[com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+82            android:exported="false" >
+82-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:51:13-37
+83            <meta-data
+83-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:34:13-36:85
+84                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+84-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:35:17-128
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:36:17-82
+86            <meta-data
+86-->[:firebase_core] D:\dev\Projects\nft_notify\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+87                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+87-->[:firebase_core] D:\dev\Projects\nft_notify\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[:firebase_core] D:\dev\Projects\nft_notify\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:52:13-54:85
+90                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+90-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:53:17-119
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:54:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\4a7bca8ac39e427456f3de56246c7bec\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+93                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+93-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\4a7bca8ac39e427456f3de56246c7bec\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\4a7bca8ac39e427456f3de56246c7bec\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\0edbe80645dc3d368181d97aa6788484\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+96                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+96-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\0edbe80645dc3d368181d97aa6788484\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\0edbe80645dc3d368181d97aa6788484\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+98        </service>
+99
+100        <provider
+100-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:39:9-43:38
+101            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+101-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:40:13-102
+102            android:authorities="com.xhedgehog.nftnotify.flutterfirebasemessaginginitprovider"
+102-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:41:13-88
+103            android:exported="false"
+103-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:42:13-37
+104            android:initOrder="99" />
+104-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:43:13-35
+105
+106        <receiver
+106-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:13:9-15:40
+107            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+107-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:14:13-97
+108            android:exported="false" />
+108-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:15:13-37
+109        <receiver
+109-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:16:9-25:20
+110            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+110-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:17:13-101
+111            android:exported="false" >
+111-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:18:13-37
+112            <intent-filter>
+112-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:19:13-24:29
+113                <action android:name="android.intent.action.BOOT_COMPLETED" />
+113-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:20:17-79
+113-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:20:25-76
+114                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+114-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:21:17-84
+114-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:21:25-81
+115                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+115-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:22:17-82
+115-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:22:25-79
+116                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+116-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:23:17-82
+116-->[:flutter_local_notifications] D:\dev\Projects\nft_notify\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:23:25-79
+117            </intent-filter>
+118        </receiver>
+119
+120        <uses-library
+120-->[androidx.window:window:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\eea15073d6c85c26529d44b07c9f8654\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+121            android:name="androidx.window.extensions"
+121-->[androidx.window:window:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\eea15073d6c85c26529d44b07c9f8654\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+122            android:required="false" />
+122-->[androidx.window:window:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\eea15073d6c85c26529d44b07c9f8654\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+123        <uses-library
+123-->[androidx.window:window:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\eea15073d6c85c26529d44b07c9f8654\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+124            android:name="androidx.window.sidecar"
+124-->[androidx.window:window:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\eea15073d6c85c26529d44b07c9f8654\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+125            android:required="false" />
+125-->[androidx.window:window:1.0.0-beta04] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\eea15073d6c85c26529d44b07c9f8654\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+126
+127        <receiver
+127-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:28:9-35:20
+128            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+128-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:29:13-78
+129            android:exported="true"
+129-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:30:13-36
+130            android:permission="com.google.android.c2dm.permission.SEND" >
+130-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:31:13-73
+131            <intent-filter>
+131-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:28:13-30:29
+132                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+132-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:17-81
+132-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:25-78
+133            </intent-filter>
+134        </receiver>
+135        <!--
+136             FirebaseMessagingService performs security checks at runtime,
+137             but set to not exported to explicitly avoid allowing another app to call it.
+138        -->
+139        <service
+139-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:41:9-48:19
+140            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+140-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:42:13-82
+141            android:directBootAware="true"
+141-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:43:13-43
+142            android:exported="false" >
+142-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\203c597cccc96782ab4769afe243222c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:44:13-37
+143            <intent-filter android:priority="-500" >
+143-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:19:13-21:29
+144                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+144-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:17-78
+144-->[:firebase_messaging] D:\dev\Projects\nft_notify\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:25-75
+145            </intent-filter>
+146        </service>
+147
+148        <provider
+148-->[com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+149            android:name="com.google.firebase.provider.FirebaseInitProvider"
+149-->[com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+150            android:authorities="com.xhedgehog.nftnotify.firebaseinitprovider"
+150-->[com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+151            android:directBootAware="true"
+151-->[com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+152            android:exported="false"
+152-->[com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+153            android:initOrder="100" />
+153-->[com.google.firebase:firebase-common:20.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\7e7ea3a614d9be0dd92acd2365e15f75\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+154
+155        <meta-data
+155-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e4af63fc9194145967ae983475ffcf1c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+156            android:name="com.google.android.gms.version"
+156-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e4af63fc9194145967ae983475ffcf1c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+157            android:value="@integer/google_play_services_version" />
+157-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e4af63fc9194145967ae983475ffcf1c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+158
+159        <service
+159-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+160            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+160-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+161            android:exported="false" >
+161-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+162            <meta-data
+162-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+163                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+163-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+164                android:value="cct" />
+164-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\e7a9cfdfff4e0de42cca0632fc8df88c\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+165        </service>
+166        <service
+166-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+167            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+167-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+168            android:exported="false"
+168-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+169            android:permission="android.permission.BIND_JOB_SERVICE" >
+169-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+170        </service>
+171
+172        <receiver
+172-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+173            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+173-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+174            android:exported="false" />
+174-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\NMEHDI\.gradle\caches\transforms-2\files-2.1\445d46749e138d4e68fc73f35ca9a5d0\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+175    </application>
+176
+177</manifest>

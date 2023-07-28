@@ -1,0 +1,4 @@
+#Fri Mar 18 11:17:39 WEST 2022
+base.0=D\:\\dev\\Projects\\nft_notify\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
